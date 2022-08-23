@@ -40,3 +40,46 @@
     border-radius: 5px;
     color:#fff;
 }
+.main{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+}
+.donation-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align-last: center;
+
+}
+.title{
+    margin-top: 1rem;
+    font-size: 50px;
+}
+.amount{
+    color: grey;
+    font-size: 35px;
+}
+.donation-part p{
+    margin-top: 1rem;
+    margin: 20px 0px;
+    font-size: 20px;
+    color: grey;
+}
+.donation-part input{
+    width: 40%;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+.help-button{
+    padding: 10px 30px;
+    background-color: coral;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    margin-top: 1rem;
+}
