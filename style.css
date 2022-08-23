@@ -1,7 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'DM Serif Display', serif;
 }
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    background-color:rgb(253, 225, 225);
+  }
+  
+  .logo{
+    font-size: 50px;
+    color: rgba(11, 118, 32, 0.825);
+    padding: 2rem;
+    font-family: 'Great Vibes', cursive;
+  }
+  .nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 10px;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    color:#000;
+    font-weight: 700px;
+    padding: 1rem;
+  }
 .banner-section{
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
@@ -32,6 +59,12 @@
     margin: 20px 0px;
     font-size: 20px;
 }
+.selected-amount{
+    background-color: rgb(241, 205, 192);
+    color: rgb(233, 66, 66);
+    padding: 1rem;
+    border: 2px solid rgb(233, 66, 66) ;
+}
 .help-button{
     padding: 10px 30px;
     background-color: coral;
@@ -44,14 +77,13 @@
     width: 90%;
     margin: auto;
     margin-top: 1rem;
-} display: flex;
+} 
+.donation-part{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align-last: center;
-.donation-part{
-   
-
 }
 .title{
     margin-top: 1rem;
@@ -60,6 +92,7 @@
 .amount{
     color: grey;
     font-size: 35px;
+    margin-top: 5rem;
 }
 .donation-part p{
     margin-top: 1rem;
@@ -226,4 +259,19 @@
 }
 .members{
     margin: 5rem
+}
+.socials img{
+    width: 30px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(46, 46, 163, 0.871);
+    height: 100px;
+}
+.socials img{
+    margin: 10px;
 }
