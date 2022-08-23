@@ -44,13 +44,13 @@
     width: 90%;
     margin: auto;
     margin-top: 1rem;
-}
-.donation-part{
-    display: flex;
+} display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align-last: center;
+.donation-part{
+   
 
 }
 .title{
@@ -176,4 +176,54 @@
     padding: 2rem;
     justify-content: center;
     align-items: center;
+}
+.join-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align-last: center;
+    padding: 2rem;
+    width: 100%;
+   
+}
+.join-us input{
+    margin: 2rem;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+.join-us p{
+    margin-top: 1rem;
+    color: grey;
+    font-size: 25px;
+}
+.achievments img{
+    width: 70px;
+}
+.quets{
+    width: 40%;
+}
+.achievments{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.quets h2{
+    color: grey;
+}
+.achievments-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align-last: center;
+    padding: 2rem;
+    color: gray;
+}
+.members{
+    margin: 5rem
 }
